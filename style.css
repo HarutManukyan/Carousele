@@ -1,0 +1,41 @@
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+h1{
+    margin-left: 150px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.carousel{
+    width: 840px;
+    height: 250px;
+}
+.img{
+    display: none;
+    
+}
+.selected--img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.next{
+    padding:7px 10px;
+    margin: 25px 50px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    border: 1px black solid;
+    cursor: pointer;
+}
+ .next:hover{
+    background-color: rgb(211, 210, 205);
+} 
+.buttons{
+    margin-top: 100px;
+    margin-left: 30%;
+}
+.selected--btn{
+    background-color: rgb(183, 184, 185);
+}
