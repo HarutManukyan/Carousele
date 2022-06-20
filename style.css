@@ -1,8 +1,9 @@
 body{
     font-family: 'Lato', sans-serif;
-
+    background-color: rgb(1, 1, 46);
 }
 h1{
+    color: azure;
     margin-left: 150px;
     margin-top: 100px;
     text-transform: uppercase;
@@ -20,6 +21,7 @@ h1{
     height: 250px;
     object-fit: cover;
     display: block;
+    border-radius: 8px;
 }
 .next{
     padding:7px 10px;
